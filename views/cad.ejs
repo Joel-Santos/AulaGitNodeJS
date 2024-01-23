@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Escolinha do Chiquinho</h1>
+    </header>
+
+    <nav>
+        <a href="/alunos">Home</a>
+        <a href="/alunos/listarAlunos">Listar Alunos</a>
+        <a href="/alunos/formCadastroUser">Cadastrar</a>
+     
+    </nav>
+
+    <section>
+        <h2>Cadastro de Alunos</h2>
+        <form method="post" action="/alunos/cadastro">
+            <label for="matricula">Matrícula:</label> <input type="text" name="matricula" id="matricula">
+            <label for="nome">Nome: </label><input type="text" name="nome" id="nome">
+            <label for="email">Email:</label> <input type="email" name="email" id="email">
+            <label for="turma">Turma:</label><input type="text" name="turma" id="turma">
+            <label for="serie">Série:</label><input type="number" name="serie" id="serie">
+            <label for="sexo">Sexo: </label><input type="text" name="sexo" id="sexo">
+            <label for="telefone">Telefone:</label><input type="tel" name="telefone" id="telefone">
+            <label for="endereco">Endereço:</label><input type="text" name="endereco" id="endereco">
+            <label for="responsavel">Responsável:</label><input type="text" name="responsavel" id="responsavel">
+            <input type="submit" value="Cadastrar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Escola Chiquinho. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

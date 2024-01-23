@@ -1,0 +1,33 @@
+Pacotes que serão instalados na aula 16/01
+npm init -y
+1- express ==> npm install express
+2- nodemon dependencias de developer => npm install --save-dev nodemon
+3- mysql2 ==> npm install mysql2
+4- cors ==> npm install cors
+5- knex ==> npm install knex
+
+6- COnfiguração do arquivo package.json
+
+7- npm run dev ==> ligar o server
+
+8- configurar pastas
+
+controllers
+databases
+routes
+
+REST CLIENT
+
+ npm install ejs ==> renderizar a lista
+
+ npm install method-override ==> possibilitar uma melhoria no código para acionar as rotas
+ PUT e DELETE. #ajustetécnico
+
+usando a migração do knex
+1 criar o arquivo knexfile.js na raiz do projeto
+npx knex migrate:make create_alunos
+npx  knex seed:make create_initial_professores
+npx knex seed:run
+
+
+ 
